@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Redes Sociales, Nuestras Redes , Deja tus datos, Contacto">
+    <meta name="description" content="Contáctanos para poder ver de que manera podemos ayudarte a llevar a tu negocio al siguiente nivel, o en su caso ayudarte a encontrar el trabajo que tantos has buscado.">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../js/prefixfree.js">
+    <link rel="icon" href="../img/favicon.png" type="image/icon">
+    <title>RH2 | Contáctanos</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="menu__general">
+            <div class="menu__logo">
+                <a href="../index.html"><img src="../img/logochico.png" alt="logo" id="inicio" width="35px" class="logo"></a>
+            </div>
+            <ul class="menu__links">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="servicios.html" class="activo">Servicios</a>
+                </li>
+                <li class="menu__item"><a class="menu__link" href="bolsatrabajo.html">Bolsa de trabajo</a></li>
+                <li class="menu__item"><a class="menu__link menu__link--activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+  </header>
+
+    <!-- Contenido de página -->
+    <main class="grid__contacto">
+        <section class="grid__uno">
+                <h1 class="titulo__section">CONTÁCTANOS</h1>
+                <div class="formulario__general">
+                    <form method="get">
+                        <p>
+                            <label for="name" class="labelContacto">Nombre Completo</label><br>
+                            <input class="data__input" type="text" id="name" placeholder="Nombre" required maxlength="40">
+                        </p>
+                        <p>
+                            <label for="servicios"  class="labelContacto">Servicio de Interés</label><br>
+                            <select class="data__input" name="servicios" id="servicios" required>
+                                <option value="bolsaTrabajo">Bolsa de Trabajo</option>
+                                <option value="reconocimiento">Reconocimiento de Habilidades</option>
+                                <option value="capacitacion">Capacitación y Planes de Desarrollo</option>
+                                <option value="DO">Desarrollo de la Cultura Organizacional</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="telefono"  class="labelContacto">Teléfono</label><br>
+                            <input class="data__input" type="tel" name="telefono" placeholder="(55)+">
+                        </p>
+                        <p>
+                            <label for="mail"  class="labelContacto">E-mail</label><br>
+                            <input class="data__input" type="email" name="mail" id="mail" placeholder="correo@dominio.etc">
+                        </p>
+                        <p>
+                            <label for="comentarios" class="labelContacto">Comentarios adicionales</label><br>
+                            <textarea name="comentarios" id="comentarios" placeholder="Nos gustaría saber tu opinión." cols="37" rows="10"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar" class="data__input data__input--submit">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="grid__dos">
+                <h2>Síguenos en nuestras redes sociales</h2>
+                <div class= "grid__logos">
+                    <a href="#"><img class="grid__dos--img" src="../img/facebook.svg"  width="40px" alt="facebook" target="_blank" class="redes"></a>
+                    <a href="#"><img class="grid__dos--img" src="../img/instagram.svg" width="40px" alt="instagram" target="_blank" class="redes"></a>
+                    <a href="#"><img class="grid__dos--img" src="../img/linkedin.svg" width="40px" alt="Linkedin" target="_blank" class="redes"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Inicia Pie de Página -->
+    <footer>
+        <div class="contenedor__footer">
+            <div class="footer__item">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../html/servicios.html">Servicios</a></li>
+                    <li><a href="../html/bolsatrabajo.html">Bolsa de Trabajo</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <p>Teléfono: 55 55 55 55 55</p>
+                <p>contacto@contacto.com</p>
+            </div>
+                
+            <div class="footer__item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.1222754362198!2d-99.1888275850944!3d19.363857486923404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff8bb1aa99dd%3A0x2c78ec8d4c878d70!2sMiguel%20Nore%C3%B1a%2018%2C%20San%20Jos%C3%A9%20Insurgentes%2C%20Benito%20Ju%C3%A1rez%2C%2003900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1631652220154!5m2!1ses-419!2smx" width="180" height="135" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="footer__item">
+                <a href="#inicio"><img src="../img/logoBlanco.png" alt="logo_rh2" height="100"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

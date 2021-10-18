@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Bolsa de Trabajo, Vacantes, Reclutamiento">
+    <meta name="description" content="Contamos con una bolsa de trabajo para encontrar el mejor talento para tu empresa, así como también cualquier persona es libre de subir su C.V. para que cuando una vacante se ajuste a su perfil podamos ponernos en contacto directamente y de esa forma lograr darle ese impulso a la vida profesional que están buscando">
+    <link href="../css/bootstrap.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../js/prefixfree.js">
+    <link rel="icon" href="../img/favicon.png" type="image/icon">
+    <title>RH2 | Nuestra Bolsa de Trabajo</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="menu__general">
+            <div class="menu__logo">
+                <a href="../index.html"><img src="../img/logochico.png" alt="logo" id="inicio" width="35px" class="logo"></a>
+            </div>
+            <ul class="menu__links">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="servicios.html" class="activo">Servicios</a>
+                </li>
+                <li class="menu__item"><a class="menu__link menu__link--activo" href="bolsatrabajo.html">Bolsa de trabajo</a></li>
+                <li class="menu__item"><a class="menu__link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+  </header>
+    <!-- Contenido de página -->
+    <main>
+        <section class="banner__general container-fluid">
+            <div id="carouselExampleControls" class="carousel slide row" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="bolsatrabajo.html"><img src="../img/banner/2.jpg" class="d-block w-100" alt="dos"></a>
+                        <div class="texto-banner carousel-caption d-none d-md-block">
+                            <h5>Bolsa de trabajo</h5>
+                            <p>Únete a nuestra bolsa de trabajo para potenciar tu desarrollo profesional</p>
+                        </div>
+                    </div>
+                   <div class="carousel-item">
+                        <a href="servicios.html"><img src="../img/banner/1.jpg" class="d-block w-100" alt="uno"></a>
+                        <div class="texto-banner carousel-caption d-none d-md-block">
+                            <h5>Consultoría en Desarrollo Organizacional</h5>
+                            <p>Te ayudamos a que tu empresa crezca con el mejor talento y los mejores procesos.</p>   
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="servicios.html"><img src="../img/banner/3.jpg" class="d-block w-100" alt="tres"></a>
+                        <div class="texto-banner carousel-caption d-none d-md-block">
+                             <h5>Reclutamiento y Selección</h5>
+                            <p>Conseguimos el mejor talento para tu empresa.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="seccion__tercios">
+            <h2 class="titulo__section">¿QUÉ OFRECEMOS CON LA BOLSA DE TRABAJO?</h2>
+            <div class="contenedor__tercios">
+                <div class="contenedor__item">
+                    <img src="../img/icoBolsa/bolsa1.png" alt="Posiciones" width="80px">
+                    <h3>Posiciones Gerenciales, Directivas y Especializadas</h3>
+                    <p>Presentación del candidato para entrevista, aplicación de filtros de seguridad elegidos, entrega de reporte del candidato, apoyo en logística para la contratación, garantía de permanencia según el nivel de puesto.</p>
+                    <span class="boton__seccion"><a href="#">Más Información</a></span>
+                </div>
+                <div class="contenedor__item">
+                    <img src="../img/icoBolsa/bolsa2.png" alt="bancoTalento" width="80px">
+                    <h3>Banco de Talento</h3>
+                    <p>Espacio para postularte y ser parte de nuestra cartera de promoción, abriendote las puertas a vacantes actuales y futuras para mejorar tu desarrollo profesional.</p>
+                    <span class="boton__seccion"><a href="#">Más Información</a></span>
+                </div>
+                <div class="contenedor__item">
+                    <img src="../img/icoBolsa/bolsa3.png" alt="evaluación" width="80px">
+                    <h3>Evaluación de Candidatos</h3>
+                    <p>Perfilamiento del puesto, evaluación por psicometría e Inteligencia Artificial, ficha de evaluación por competencias y personalidad con base en grafología y la psicología del rostro, retroalimentación personalizada sobre los resultados del candidato.</p>
+                    <span class="boton__seccion"><a href="#">Más Información</a></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario__bolsa">
+            <div>
+            <h2 class="titulo__section">DÉJANOS TU CV PARA CONTACTARTE EN CASO DE TENER VACANTES CON TU PERFIL</h2>
+            </div>
+            <div class="formulario__general">
+                <form method="get">
+                    <p>
+                        <label for="name">Nombre Completo</label><br>
+                        <input class="data__input" type="text" id="name" placeholder="Nombre" required maxlength="40">
+                    </p>
+                    <p>
+                        <label for="cvGente">CV</label><br>
+                        <input class="data__input" type="file" name="cvGente">
+                    </p>
+                    <p>
+                        <label for="telefono">TELÉFONO</label><br>
+                        <input class="data__input" type="tel" name="telefono" placeholder="(55)+">
+                    </p>
+                    <p>
+                        <label for="mail">E-MAIL</label><br>
+                        <input class="data__input" type="email" name="mail" id="mail" placeholder="correo@dominio.etc">
+                    </p>
+                    <p>
+                        <label for="localidad">Ubicación</label><br>
+                        <select class="data__input" name="localidad" id="localidad" required>
+                            <option value="cdmx">CDMX</option>
+                            <option value="edomex">Estado de México</option>
+                            <option value="pachuca">Pachuca</option>
+                            <option value="morelos">Morelos</option>
+                            <option value="qro">Querétaro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="terminos"></label>
+                        <input type="checkbox" name="terminos" id="terminos" required>He leido y acepto los <a href="#">terminos y condiciones</a>.
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar" class="data__input data__input--submit">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Inicia Pie de Página -->
+    <footer>
+        <div class="contenedor__footer">
+            <div class="footer__item">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../html/servicios.html">Servicios</a></li>
+                    <li><a href="../html/bolsatrabajo.html">Bolsa de Trabajo</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <p>Teléfono: 55 55 55 55 55</p>
+                <p>contacto@contacto.com</p>
+            </div>
+                
+            <div class="footer__item">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.1222754362198!2d-99.1888275850944!3d19.363857486923404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff8bb1aa99dd%3A0x2c78ec8d4c878d70!2sMiguel%20Nore%C3%B1a%2018%2C%20San%20Jos%C3%A9%20Insurgentes%2C%20Benito%20Ju%C3%A1rez%2C%2003900%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1631652220154!5m2!1ses-419!2smx" width="180" height="135" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="footer__item">
+                <a href="#inicio"><img src="../img/logoBlanco.png" alt="logo_rh2" height="100"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

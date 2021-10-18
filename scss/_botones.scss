@@ -1,0 +1,25 @@
+$morado: #74588F;
+$amarillo: #FDC858;
+$gris_claro: #f8f8f8;
+
+
+.boton__seccion{
+    background-color: $morado;
+    border-radius: 3px;
+    width: fit-content;
+    margin: auto;
+    padding: .3rem .4rem;
+    &:hover{
+        background-color: $amarillo;
+        color: $morado;
+    }
+    &:active{
+        transform: scale(.9,.9);
+        transition: .3s;
+    }
+    a{
+        text-decoration: none;
+        color: $gris_claro;
+    }
+}
+
