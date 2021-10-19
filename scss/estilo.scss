@@ -164,17 +164,24 @@ footer{
     h3{
         font-weight: bold;
         color: $morado;
+        font-size: 1.3rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px 0px;
     }
 
     .contenedor__tercios{
         @include flex-row;
+        align-items: space-between;
         
         .contenedor__item{
-            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
             justify-content: space-between;
+            width: 305px;
             margin: 25px auto;
             padding: 20px 15px 25px 15px;
-            align-content: center;
             border-right: 3px solid $morado;
             border-top: 2px solid $gris_claro;
             border-bottom: 3px solid $morado;
@@ -185,6 +192,7 @@ footer{
             }
         }
     }
+
 }
 
 // ---------------- CLIENTES---------------------

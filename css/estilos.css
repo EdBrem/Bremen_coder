@@ -157,18 +157,25 @@ footer {
   text-align: center; }
   .seccion__tercios h3 {
     font-weight: bold;
-    color: #74588F; }
+    color: #74588F;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 0px; }
   .seccion__tercios .contenedor__tercios {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto; }
+    margin: auto;
+    align-items: space-between; }
     .seccion__tercios .contenedor__tercios .contenedor__item {
-      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
       justify-content: space-between;
+      width: 305px;
       margin: 25px auto;
       padding: 20px 15px 25px 15px;
-      align-content: center;
       border-right: 3px solid #74588F;
       border-top: 2px solid #f8f8f8;
       border-bottom: 3px solid #74588F;
