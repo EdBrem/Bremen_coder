@@ -135,6 +135,7 @@ footer{
     padding: 0;
     margin: 0;
     z-index: 0;
+    
 }
 
 // ---------------- ABOUT---------------------
@@ -179,7 +180,7 @@ footer{
             flex-direction: column;
             align-content: space-between;
             justify-content: space-between;
-            width: 305px;
+            width: 295px;
             margin: 25px auto;
             padding: 20px 15px 25px 15px;
             border-right: 3px solid $morado;
@@ -331,6 +332,22 @@ footer{
         }
         }
 
+        .banner__general{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            z-index: 0;
+            
+            p{
+                font-weight: bold;
+                font-size: 1rem;
+            }
+        
+            h2{
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+        }
 }
 
 @media (min-width: 1024px){
@@ -354,5 +371,17 @@ footer{
 
     footer{
         height: 24vh;
+    }
+
+    .banner__general{
+        p{
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    
+        h2{
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
     }
 }

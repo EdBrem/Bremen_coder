@@ -173,7 +173,7 @@ footer {
       flex-direction: column;
       align-content: space-between;
       justify-content: space-between;
-      width: 305px;
+      width: 295px;
       margin: 25px auto;
       padding: 20px 15px 25px 15px;
       border-right: 3px solid #74588F;
@@ -297,7 +297,18 @@ footer {
             background-color: none; }
       header .menu__general .menu__logo {
         justify-content: space-between;
-        padding-left: 25px; } }
+        padding-left: 25px; }
+  .banner__general {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 0; }
+    .banner__general p {
+      font-weight: bold;
+      font-size: 1rem; }
+    .banner__general h2 {
+      font-weight: bold;
+      font-size: 1.4rem; } }
 
 @media (min-width: 1024px) {
   .grid__contacto {
@@ -313,4 +324,10 @@ footer {
     .grid__contacto .grid__dos {
       grid-area: 'grid__dos'; }
   footer {
-    height: 24vh; } }
+    height: 24vh; }
+  .banner__general p {
+    font-weight: bold;
+    font-size: 1.3rem; }
+  .banner__general h2 {
+    font-weight: bold;
+    font-size: 1.6rem; } }
