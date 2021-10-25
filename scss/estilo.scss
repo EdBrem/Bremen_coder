@@ -51,7 +51,7 @@ $gris_claro: #f8f8f8;
 // ---------------- HEADER NAV---------------------
 header{
     background-color: $gris_claro;
-    height: 12vh;
+    height: 100px;
     width: 100%;
     position: sticky;
     top: 0;
@@ -205,11 +205,14 @@ footer{
     .contenedor__clientes{
         @include flex-row;
         justify-content: space-between;
-        margin-bottom: 25px;
-
+        padding-bottom: 25px;
         .img__clientes{
+            &:hover{
+                transform: scale(1.1,1.1);
+                transition: .5s;
+            }
             margin: 10px;
-            padding:5px
+            padding:5px            
         }
     }
 }
@@ -302,7 +305,7 @@ footer{
 @media  (min-width: 426px){
     
     header{
-        height: 8vh;
+        height: 65px;
 
         .menu__general{
             width: 90%;
@@ -354,7 +357,7 @@ footer{
     .grid__contacto{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 68vh;
+        height: 69.5vh;
         grid-template-rows: 1fr;
         grid-template-areas: "grid__uno grid__dos";
         padding: 0px;

@@ -65,7 +65,7 @@
 
 header {
   background-color: #f8f8f8;
-  height: 12vh;
+  height: 100px;
   width: 100%;
   position: sticky;
   top: 0;
@@ -194,10 +194,13 @@ footer {
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    margin-bottom: 25px; }
+    padding-bottom: 25px; }
     .seccion__clientes .contenedor__clientes .img__clientes {
       margin: 10px;
       padding: 5px; }
+      .seccion__clientes .contenedor__clientes .img__clientes:hover {
+        transform: scale(1.1, 1.1);
+        transition: .5s; }
 
 /* --------------------BOLETIN----------------------- */
 .boletin {
@@ -266,7 +269,7 @@ footer {
 /* ------------------ MEDIA QUERYS ------------------- */
 @media (min-width: 426px) {
   header {
-    height: 8vh; }
+    height: 65px; }
     header .menu__general {
       width: 90%;
       height: 100%;
@@ -314,7 +317,7 @@ footer {
   .grid__contacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 68vh;
+    height: 69.5vh;
     grid-template-rows: 1fr;
     grid-template-areas: "grid__uno grid__dos";
     padding: 0px;
